@@ -42,8 +42,8 @@ data.info()
 
 data.isnull().sum()
 
-x=data["v1"].values
-y=data["v2"].values
+x=data["v2"].values
+y=data["v1"].values
 
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=0)
@@ -66,27 +66,27 @@ accuracy
 ```
 ## Output:
 ## Encoding:
-![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/ed87456c-9dd8-418d-a960-1abad11477f2)
+![image](https://github.com/user-attachments/assets/fe2c688c-9581-4f08-a99d-e2937431f17b)
 
 
 ## Head():
-![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/8e2c3fec-2fe3-40c3-923a-1a1c3719e734)
+![image](https://github.com/user-attachments/assets/3ade3e6d-52ec-45cf-a483-aa412b1847c0)
 
 
 ## Info():
-![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/b48518c5-c983-44d3-9cc2-14924033aa91)
+![image](https://github.com/user-attachments/assets/a7373424-cd84-498d-9934-effda265f065)
 
 
 ## isnull().sum():
-![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/50754f89-e886-48c3-a285-44b76317b605)
+![image](https://github.com/user-attachments/assets/8a4d297d-37b9-4622-bfdf-72b7628e0def)
 
 
 ## Prediction of y:
-![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/8f3a2d63-9aa6-4da2-95c4-d53b87fde998)
+![image](https://github.com/user-attachments/assets/f397990d-6a8d-4f59-a820-7f62072df18c)
 
 
 ## Accuracy:
-![image](https://github.com/harini1006/Implementation-of-SVM-For-Spam-Mail-Detection/assets/113497405/d1dcce16-dc32-4ec2-a042-ce25bee461da)
+![image](https://github.com/user-attachments/assets/b366d118-f3d7-4e6b-90aa-e50029ef3869)
 
 
 ## Result:
